@@ -8,7 +8,7 @@ const footerLinks = {
     { name: "Residential Upholstery", href: "/residential" },
     { name: "Commercial Solutions", href: "/commercial" },
     { name: "Fabric Collection", href: "/material" },
-    { name: "Before & After", href: "/before-after" },
+    { name: "Before & After", href: "/gallery" },
     { name: "Request a Quote", href: "/contact" },
   ],
 services: [
@@ -25,10 +25,10 @@ services: [
     { name: "Terms of Service", href: "/terms" },
   ],
   contact: [
-    { icon: "material-symbols:location-on", text: "123 Artisan Way, Furniture District, City Center, 54321" },
-    { icon: "material-symbols:phone-in-talk", text: "+1 (555) 000-1234" },
+    { icon: "material-symbols:location-on", text: "Navi mumbai, Maharastra, India" },
+    { icon: "material-symbols:phone-in-talk", text: "+91 9689950472" },
     { icon: "material-symbols:schedule", text: "Mon-Sat: 9am - 6pm" },
-    { icon: "material-symbols:mail", text: "concierge@yasharenterprises.com" },
+    { icon: "material-symbols:mail", text: "Yasharenterprises07@gmail.com" },
   ],
   social: [
     { icon: "streamline-plump:web", href: "#" },

@@ -40,9 +40,9 @@ const collection = [
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCLrbyzgeY4hGguM7SmxLbhWfNpgdkJc2_VNTyeBQ3P1DIoD-hFbARViFnKF4OCE32BJ7Us6jdKZrDtWC0XuQfmhJv2aTc3yE9jNKhUkKUHANeMe0xhe4_hBEFRSjQaHsDP5MY5PJUH5OmrB6_OZfS092OiLuSXHv0HMSQx4c_Vk1UOSHT3DIk9YBJfU8cPE1Pi42ZtrZgj2mzxmMbJFwEjAmVHkmCGc4CPjeBzLcNWlRqM5r1EOFydQBQJc4lU5yLkLqDDXz2SgPI",
   },
   {
-    name: "Full-Grain Leather",
+    name: "Leather Craftsmanship",
     image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuA56tD6lF5vFx1BEmHNljtwagiSrF8T-6wmyXbnIDZhpAJhNcgtqKIrGdzwOGLMnBDpKjOgscLJTATwn-L2XfprW74npxqJlENNtwF5KtFvVW0yWOEoNzqPFFF2HU9SI7x2JVGsBFQ-ZiC9H-L6phbwljXzuvXGsIbx7q0i-KHrbL0vFBdRnCAZs-xdY8gM-ztQQtf2eGJMsp5t3m0QiTKaUByGKLE_ICjL46h5UxW1AQwnX_4RMBiecwW4o52It8baQsr-zK1PW0k",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDB_D4KzH9C1DJMdiAbm3e5vJTyci0CZOeoAe_0tdQsjfgsZfq8Arq3KOhKTydRxsLwssUW_WcKAgj4Ct2ivnhUvVJH8BMRGk8VUYPELRQLaWaixt1BLMH9RnzsrNQZo9lySn8JX3RskBLFdKt-Rq2T6UzUCmHy30NwHGqokAzusSbtNbujLC-gW2zjVJHQjTO-Lws9fkT4Fax22wgzdk9cOklfG3-A4In56zJPIe-Bt84kQPRIZ5p4KdGszlAEsdlMaJXd6yTt4ghh",
   },
   {
     name: "Classic Jacquard",
@@ -166,7 +166,7 @@ export default function ResidentialPage() {
 
       {/* Fabric Collection */}
       <Section className="bg-muted">
-        <div className="flex flex-col md:flex-row items-end justify-between mb-12">
+        <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between mb-12">
           <div className="max-w-xl">
             <h2 className="text-3xl md:text-4xl font-bold font-serif mb-4">
               The Residential Collection
@@ -178,7 +178,7 @@ export default function ResidentialPage() {
           </div>
           <Link
             href="/material"
-            className="mt-6 md:mt-0 border border-primary text-primary px-6 py-2 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors font-medium"
+            className="mt-6 lg:mt-0 border border-primary text-primary px-6 py-2 rounded-full hover:bg-primary hover:text-primary-foreground transition-colors font-medium"
           >
             Explore Fabric Catalog
           </Link>
@@ -207,7 +207,7 @@ export default function ResidentialPage() {
       <section className="py-24 px-6 bg-background-light dark:bg-background-dark">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-white mb-4">
+            <h2 className="text-3xl font-bold text-foreground mb-4">
               Our Seamless Process
             </h2>
             <p className="text-stone-400">
@@ -239,7 +239,7 @@ export default function ResidentialPage() {
                 <div className="md:w-1/2 md:pl-12"></div>
               </div>
               {/* <!-- Step 2 --> */}
-              <div className="relative flex flex-col md:flex-row items-center group">
+              <div className="relative flex flex-col-reverse md:flex-row items-center group">
                 <div className="md:w-1/2 md:pr-12"></div>
                 <div className="z-10 p-2.5 rounded-full bg-primary flex items-center justify-center my-4 md:my-0">
                   <Icon

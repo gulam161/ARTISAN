@@ -24,13 +24,13 @@ const materials = [
     features: ["100k Rubs", "Spill Res."],
     tag: "Premium",
   },
-  {
-    category: "Premium Leathers",
-    name: "Aniline Distressed Onyx",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBU3iiaH8zBGDJJUNZPDQ376oqgJAFneRBgdPhM306m5wT8keK3sQkRzZ7U0kT3f1siP6ooIT26VBisf1MmxmTJ5mJXLaNtcKfymKqx4BEJuRj6bWMLyhRW_aSePaSq4KvSEvoC9D23rJnmdhrUvw6WmR_C4i61Va88jlb2N2zYAjfgiULPa8pCE85D-BD9oQdImsJAB4PoCwNyVEYyaQK7cjFzZEqQ03vdT_3QFyCISdvuhjJJI71TNuGi1ua-ObsVfZpOrAIWXXg",
-    features: ["12 Colors", "Vintage Age"],
-  },
+  // {
+  //   category: "Premium Leathers",
+  //   name: "Aniline Distressed Onyx",
+  //   image:
+  //     "https://lh3.googleusercontent.com/aida-public/AB6AXuBU3iiaH8zBGDJJUNZPDQ376oqgJAFneRBgdPhM306m5wT8keK3sQkRzZ7U0kT3f1siP6ooIT26VBisf1MmxmTJ5mJXLaNtcKfymKqx4BEJuRj6bWMLyhRW_aSePaSq4KvSEvoC9D23rJnmdhrUvw6WmR_C4i61Va88jlb2N2zYAjfgiULPa8pCE85D-BD9oQdImsJAB4PoCwNyVEYyaQK7cjFzZEqQ03vdT_3QFyCISdvuhjJJI71TNuGi1ua-ObsVfZpOrAIWXXg",
+  //   features: ["12 Colors", "Vintage Age"],
+  // },
   {
     category: "Premium Leathers",
     name: "Nappa Pebble Grain",
