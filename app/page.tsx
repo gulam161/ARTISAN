@@ -94,7 +94,7 @@ export default function Home() {
         <div className="flex flex-col gap-16">
           <div className="flex flex-col gap-4 text-center items-center">
             <h2 className="text-foreground text-4xl md:text-5xl font-bold font-serif">
-               Excellence in Every Stitch
+               Excellence in Every Project
             </h2>
             <div className="w-20 h-1 bg-primary rounded-full"></div>
             <p className="text-muted-foreground text-lg max-w-[720px] mt-2">
@@ -135,14 +135,14 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {gallery.map((item) => (
-              <div key={item.id} className="group overflow-hidden rounded-xl bg-muted aspect-[4/5] relative">
+              <div key={item.id} className="group overflow-hidden rounded-xl bg-muted aspect-4/5 relative">
                  <Image
                     src={item.image}
                     alt={item.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                  />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                 <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
                     <span className="text-white font-bold">{item.title}</span>
                  </div>
               </div>
